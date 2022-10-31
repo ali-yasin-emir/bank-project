@@ -1,0 +1,24 @@
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 45em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .movements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1 / -1;
+  }
+
+  .account-operations {
+    grid-template-columns: 1fr;
+  }
+}
